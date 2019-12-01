@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Gupter&display=swap');
+body{
+    font-family: 'Gupter', serif;
+    background-color: #efefef;
+}
+.hide{display: none;}
+div{display: none;}
+div.show{display: block;}
+.bor-rad{
+    border-radius: 10px;
+}
+
+#t1{
+    position: relative;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.btn-chs{
+    position: relative;
+    margin: 5px;
+    padding: 10px;
+    border-color: black;
+
+}
+
+#d3{
+    position: relative;
+    min-height: 120px;
+    height: 13%;
+    width: 13%;
+    border: 3px black solid;
+    border-radius: 10px;
+    background-color: #4e754c;
+}
+.text{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.BtSeed{
+    position: relative;
+    padding: 3px;
+    margin: 5px;
+    left: 25%;
+    text-align: center;
+    background-color: #5a8858;
+}
+
+
+
+

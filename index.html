@@ -4,7 +4,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<link rel="stylesheet" href="css/main.css">	
+	<link rel="stylesheet" href="css/second.css">	
 </head>
 <body>
 	<script src="tree_loader.js"></script>
@@ -14,26 +14,32 @@
 	<script src="shop.js"></script>
 
 
-	<div id="d1" class="show">
+	<div id="d1" class="show ">
 		<div id="main" class="show">
 			<p class="show" id="main_text">Enter your <br> goal</p>
-			<input type="text" id="t1">
-			<button onclick="StartGame()">Start Game</button>
+			<input type="text" id="t1" class="bor-rad">
+			<button onclick="StartGame()" class="btn-chs bor-rad">Start Game</button>
 		</div>
+		<button onclick="ez()" class="btn-chs bor-rad">Easeygoal=1000)</button>
+		<button onclick="med()" class="btn-chs bor-rad">Medium(goal=2000)</button>
+		<button onclick="hard()" class="btn-chs bor-rad">Hard(goal=3000)</button>
+	</div>
+
+	<div id = "d2">
+			<canvas id="c1" width="1000px" height="800x" onclick="HandClick(event)"></canvas> <!-- STATIC GAME ZONE -->
+			<br>
 	</div>
 
 	<div id="d3" >
-		<span id="Text">Seed Shop</span>
-		<img src="Komod.png" alt="lox" id="img1" onclick="Open_shop()">
-		<img src="Komod_2.png" alt="lox" id="img2" class="hide" onclick="Open_shop()">
+		<div class="text show">Seed Shop</div>
+		<div id="seedShop" class="">
+			<button class="BtSeed" onclick="BuyTree()">Buy Tree</button><br>
+			<button class="BtSeed" onclick="BuyMushroom()">Buy Mushroom</button><br>
+			<button class="BtSeed" onclick="BuyWaterGrass()">Buy Kelp</button>
+		</div>
 	</div>
 
-	<div id="seedShop">
-		<button id="BtSeed" onclick="BuyTree()">Buy Tree</button>
-		<button id="BtSeed" onclick="BuyMushroom()">Buy Mushroom</button>
-		<button id="BtSeed" onclick="BuyWaterGrass()">Buy WaterGrass</button>
-		<button id="BtSeed" onclick="">Empty</button>
-	</div>
+
 
 	<div id="d4">
 		<span>Tool Menu</span>
@@ -44,7 +50,7 @@
 
 	<div id="ToolShop" >
 		<button onclick="PlantTree()">Tree Planting</button>
-		<button onclick="PlantWaterGrass()">Plant Water Grass</button>
+		<button onclick="PlantWaterGrass()">Plant Kelp</button>
 		<button onclick="PlantMushroom()">Plant Mushroom</button>
 	</div>
 
@@ -55,14 +61,14 @@
 	<div id="premiumShop">
 		<button onclick="Increase_tree_prof()">Increase tree profit</button>
 		<button onclick="Increase_mushroom_prof()">Increase mushroom profit</button>
-		<button onclick="Increase_WaterGrass_prof()">Increase Water Grass profit</button>
+		<button onclick="Increase_WaterGrass_prof()">Increase Kelp profit</button>
 	</div>
 
-	<div id = "d2">
-	<canvas id="c1" width="1000px" height="800x" onclick="HandClick(event)"></canvas> <!-- STATIC GAME ZONE -->
-	<br>
+	<div >
+		<button class="reset">
+			<img src="reset.png" alt="">
+		</button>
 	</div>
-
 <script src="main.js"></script>
 </body>
 </html>

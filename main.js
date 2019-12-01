@@ -1,25 +1,28 @@
 
 var level_01 = [
-    [0,0,0,0,0,0,0,-3,0,0,0,0,0,0,0,0,0,0,0,6],
-    [0,0,0,0,0,0,0,-3,0,0,0,0,0,0,0,0,0,0,0,6],
-    [0,0,0,0,0,0,0,-3,0,0,0,0,0,0,0,0,0,0,0,6],
-    [0,0,0,0,0,0,0,-3,0,0,0,0,0,0,0,0,0,0,0,6],
-    [0,0,0,0,0,0,0,-3,0,0,0,0,0,0,0,0,0,0,0,6],
-    [0,0,0,0,0,0,0,-3,0,0,0,0,0,0,0,0,0,0,0,6],
-    [0,0,0,0,0,0,0,-3,0,0,0,0,0,0,0,0,0,0,0,6],
-    [-1,-1,-1,-1,-1,-1,-1,-5,0,0,0,0,0,0,0,0,0,0,0,6],
-    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6],
-    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6],
-    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6],
-    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6],
-    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6],
-    [0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,0,2,2,2,6],
-    [0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,6],
-    [3,3,3,3,3,0,0,0,0,0,2,0,0,0,0,0,0,0,0,6],
-    [3,3,3,3,3,0,0,0,0,0,2,0,0,0,0,0,0,0,0,6],
-    [3,3,3,3,3,0,0,0,0,0,2,0,0,0,0,0,0,0,0,6],
-    [3,3,3,3,3,0,0,0,0,0,2,0,0,0,0,0,0,0,0,6],
-    [4,4,4,4,4,9,5,5,5,5,5,5,5,5,5,5,5,5,5,7]
+    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6],
+    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6],
+    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6],
+    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6],
+    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6],
+    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6],
+    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6],
+    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6],
+    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6],
+    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6],
+    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6],
+    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6],
+    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6],
+    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,0,2,2,2,6],
+    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,6],
+    [3,3,3,3,3,3,3,3,3,0,0,0,0,0,2,0,0,0,0,0,0,0,0,6],
+    [3,3,3,3,3,3,3,3,3,0,0,0,0,0,2,0,0,0,0,0,0,0,0,6],
+    [3,3,3,3,3,3,3,3,3,0,0,0,0,0,2,0,0,0,0,0,0,0,0,6],
+    [3,3,3,3,3,3,3,3,3,0,0,0,0,0,2,0,0,0,0,0,0,0,0,6],
+    [3,3,3,3,3,3,3,3,3,0,0,0,0,0,2,0,0,0,0,0,0,0,0,6],
+    [3,3,3,3,3,3,3,3,3,0,0,0,0,0,2,0,0,0,0,0,0,0,0,6],
+    [3,3,3,3,3,3,3,3,3,0,0,0,0,0,2,0,0,0,0,0,0,0,0,6],
+    [4,4,4,4,4,4,4,4,4,9,5,5,5,5,5,5,5,5,5,5,5,5,5,7]
     ]
     
     var imGrass = new Image();
@@ -96,14 +99,29 @@ var level_01 = [
     Assets.load();
     Assets_WaterPlant.load();
     
+        function ez(){
+            goal = 1000 ; 
+            StartGame()
+        }
+        function med(){
+            goal = 2000 ;
+            StartGame() 
+        }
+        function hard(){
+            goal = 3000 ;
+            StartGame() 
+        }
+
     var timer = null;
     function StartGame() {
+        if (goal == 0){
         goal = Number(document.getElementById('t1').value)
+        }
         document.getElementById('d1').className = '';
-    
         document.getElementById('d2').className = 'show';
         document.getElementById('d3').className = 'show';
         document.getElementById('d4').className = 'show';
+        document.getElementById('seedShop').className = 'show';
         document.getElementById('ToolShop').className = 'show';
         document.getElementById('d5').className = 'show';
         document.getElementById('premiumShop').className = 'show';
@@ -411,20 +429,7 @@ var level_01 = [
         }
     }
     
-    var komod_phase = true;
-    function Open_shop() {
-    if (komod_phase == true) {
-        document.getElementById('img1').className = 'hide';
-        document.getElementById('img2').className = '';
-        document.getElementById('seedShop').className = 'show';
-        komod_phase = false;
-    } else {
-        document.getElementById('img1').className = '';
-        document.getElementById('img2').className = 'hide';
-        document.getElementById('seedShop').className = '';
-        komod_phase = true;
-    }
-    }
+
     
     function HandClick(e) {
         let x_c = e.clientX -10 - dx;
@@ -477,30 +482,6 @@ var level_01 = [
         case 3: newWaterGrass(c, r); break;				
         }
     }
-    
-    // var step = 32;
-    // function MoveUp() {
-    // 	dy+=step;
-    // }
-    
-    // function MoveDown() {
-    // 	dy-=step;
-    // }
-    /*
-    function resetList() {
-        let m = 500 ;
-        let n = 30 ;
-        ctx.fillStyle = ("rgb(255, 153, 153)")
-        ctx.fillRect(m, n, 200, 300)
-    }
-    
-    function change_reset_status_2() {
-        reset_status_2 = true ;
-    }
-    
-    var reset_status = false; //draw reset List
-    var reset_status_2 = false ;  //do reset
-    */
     
     
     

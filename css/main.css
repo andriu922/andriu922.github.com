@@ -3,10 +3,10 @@
 			font-family: 'Gupter', serif;
 			background-color: #efefef;
 		}
-		 .hide {display: none;}
-		 div {display: none}
-		 div.show {display: block} 
-		 canvas {border: red 1px solid;}
+		.hide {display: none;}
+		div {display: none}
+		div.show {display: block} 
+		canvas {border: red 1px solid;}
 		#t1{
 		 	position: relative;
 		 	padding: 15px ;
