@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Gupter&display=swap');
+		body{
+			font-family: 'Gupter', serif;
+			background-color: #efefef;
+		}
+		 .hide {display: none;}
+		 div {display: none}
+		 div.show {display: block} 
+		 canvas {border: red 1px solid;}
+		#t1{
+		 	position: relative;
+		 	padding: 15px ;
+		 	border-radius: 15px ;
+		 	text-align: center;
+		 	font-size: 20px ;
+		 }
+		div#d1 div#main button{
+		 	position: relative;
+		 	padding: 15px ;
+		 	width: 250px ;
+		 	font-size: 30px ;
+		 	font-family: fantasy;
+		 	border-radius: 10px ;
+		 }
+		#BtSeed {
+			display: block;
+			padding: 2px ;
+			margin: 7px ;
+			background-color: rgb(238, 165, 123);
+		 }
+		#d3{
+		 	position: fixed ;
+		 	left: 1065px ;
+		 	width: 250px ;
+		 	height: 200px ;
+		 	background-color: rgb(171,86,50);
+		 	border: 5px brown ridge;
+		 	border-radius: 10px;
+		 	font-family: fantasy;
+		 }
+		#d4{
+		 	position: fixed;
+		 	left: 1065px ;
+		 	top: 260px ;
+		 	width: 250px ;
+			height: 200px ;
+			background-color: rgb(171,86,50);
+		 	border: 5px brown ridge;
+		 	border-radius: 10px;
+		 	font-family: fantasy;
+		 }
+		#d5{
+		 	position: fixed;
+		 	left: 1405px ;
+		 	width: 270px ;
+			height: 200px ;
+			background-color: rgb(171,86,50);
+		 	border: 5px brown ridge;
+		 	border-radius: 10px;
+		 	font-family: fantasy;
+		 }
+	 	 #seedShop {             
+			position: fixed; 
+			left: 1200px;
+			top: 20px ;
+		 }
+		#d4 img{
+		 	position: fixed ;
+			margin-top: 10px ;
+		 }
+		#ToolShop {
+		 	position: fixed;
+		 	left: 1200px ;
+		 	top: 270px ;
+		 }
+		#ToolShop button {
+		 	display: block;
+			padding: 2px ;
+			margin: 7px ;
+			background-color: rgb(238, 165, 123);
+		 }
+		#premiumShop{
+		 	position: fixed;
+		 	left: 1500px;
+		 	top: 20px ;
+		 }
+		#premiumShop button{
+		 	display:block ;
+		 	padding: 2px ;
+		 	margin:7px ;
+		 	background-color: rgb(238, 165, 123);
+		 }
