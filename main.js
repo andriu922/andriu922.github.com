@@ -117,14 +117,9 @@ var level_01 = [
         if (goal == 0){
         goal = Number(document.getElementById('t1').value)
         }
-        document.getElementById('d1').className = '';
+        document.getElementById('d1').className = 'hide';
         document.getElementById('d2').className = 'show';
         document.getElementById('d3').className = 'show';
-        document.getElementById('d4').className = 'show';
-        document.getElementById('seedShop').className = 'show';
-        document.getElementById('ToolShop').className = 'show';
-        document.getElementById('d5').className = 'show';
-        document.getElementById('premiumShop').className = 'show';
         timer = setInterval(draw,1);
     }
     // Ilustration

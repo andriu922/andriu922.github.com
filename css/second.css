@@ -4,7 +4,7 @@ body{
     background-color: #efefef;
 }
 .hide{display: none;}
-div{display: none;}
+/* div{display: none;} */
 div.show{display: block;}
 .bor-rad{
     border-radius: 10px;
@@ -26,23 +26,24 @@ div.show{display: block;}
 
 }
 
-#d3{
-    position: relative;
-    min-height: 120px;
-    height: 13%;
-    width: 13%;
+.shops{
+    position: absolute;
+    max-height: 170px;
+    width: 14%;
     border: 3px black solid;
     border-radius: 10px;
     background-color: #4e754c;
+    margin: 10px;
 }
 .text{
     position: relative;
     width: 100%;
     text-align: center;
     font-size: 25px;
+    margin: 10px;
 }
 
-.BtSeed{
+.btn{
     position: relative;
     padding: 3px;
     margin: 5px;
@@ -51,6 +52,32 @@ div.show{display: block;}
     background-color: #5a8858;
 }
 
+.tool{
+    left: 20%;
+}
 
+.prem{
+    left: 40%;
+}
 
+#img3, #img4{
+    position: absolute;
+    top: 30%;
+}
 
+.tool-btn{
+    position: relative;
+    left: 50%;
+
+}
+
+.res{
+    left: 60%;
+}
+
+.res-img{
+    position: relative;
+    max-width: 70%;
+    max-height: 100%;
+    left: 10%;
+}

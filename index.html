@@ -25,50 +25,74 @@
 		<button onclick="hard()" class="btn-chs bor-rad">Hard(goal=3000)</button>
 	</div>
 
-	<div id = "d2">
-			<canvas id="c1" width="1000px" height="800x" onclick="HandClick(event)"></canvas> <!-- STATIC GAME ZONE -->
+	<div id = "d2" class="hide">
+			<canvas id="c1" width="1000px" height="710px" onclick="HandClick(event)"></canvas> <!-- STATIC GAME ZONE -->
 			<br>
 	</div>
 
-	<div id="d3" >
-		<div class="text show">Seed Shop</div>
-		<div id="seedShop" class="">
-			<button class="BtSeed" onclick="BuyTree()">Buy Tree</button><br>
-			<button class="BtSeed" onclick="BuyMushroom()">Buy Mushroom</button><br>
-			<button class="BtSeed" onclick="BuyWaterGrass()">Buy Kelp</button>
+	<div id="d3" class="hide">
+		<!-- <div class="shops show">
+			<div id="seedShop" class="show">
+				<div class="text show">Seed Shop</div>
+					<button class="BtSeed" onclick="BuyTree()">Buy Tree</button><br>
+					<button class="BtSeed" onclick="BuyMushroom()">Buy Mushroom</button><br>
+					<button class="BtSeed" onclick="BuyWaterGrass()">Buy Kelp</button>
+			</div>
+		</div>
+		<div class="shops show">
+				<div class="text show">Tool Menu</div>
+					<img src="Gather_tool.png" alt="" onclick="Pickup()" id="img3">
+					<img src="Gather_tool_active.png" alt="" onclick="Pickup()" class="hide" id="img4">
+					<div id="ToolShop show" >
+						<button onclick="PlantTree()">Tree Planting</button>
+						<button onclick="PlantWaterGrass()">Plant Kelp</button>
+						<button onclick="PlantMushroom()">Plant Mushroom</button>
+					</div>
+		</div>
+		<div class="shops show">
+			<div id="text show">Spec Shop</div>
+			<div id="premiumShop show">
+				<button onclick="Increase_tree_prof()">Increase tree profit</button>
+				<button onclick="Increase_mushroom_prof()">Increase mushroom profit</button>
+				<button onclick="Increase_WaterGrass_prof()">Increase Kelp profit</button>
+			</div>
+		</div> -->
+		<div class="shops seed">
+			<div class="text">Seed Shop</div>
+			<div class="">
+				<button class="btn shops-btn" onclick="BuyTree()">Buy Tree</button><br>
+				<button class="btn shops-btn" onclick="BuyMushroom()">Buy Mushroom</button><br>
+				<button class="btn shops-btn" onclick="BuyWaterGrass()">Buy Kelp</button>
+			</div>
+		</div>
+		<div class="shops tool">
+			<img src="Gather_tool.png" alt="" onclick="Pickup()" id="img3">
+			<img src="Gather_tool_active.png" alt="" onclick="Pickup()" class="hide" id="img4">
+			<div class="text">Tool Shop</div>
+			<div class="">	
+				<button class="btn tool-btn" onclick="PlantTree()">Tree Planting</button><br>
+				<button class="btn tool-btn" onclick="PlantWaterGrass()">Plant Kelp</button><br>
+				<button class="btn tool-btn" onclick="PlantMushroom()">Plant Mushroom</button>
+			</div>
+		</div>
+		<div class="shops prem">
+			<div class="text">Premium Shop</div>
+			<div class="">
+				<button class="btn prem-btn" onclick="Increase_tree_prof()">Increase tree profit</button><br>
+				<button class="btn prem-btn" onclick="Increase_mushroom_prof()">Increase mushroom profit</button><br>
+				<button class="btn prem-btn" onclick="Increase_WaterGrass_prof()">Increase Kelp profit</button>
+			</div>
+		</div>
+		<div class="shops res">
+			<img src="reset.png" alt="" class="res-img">
 		</div>
 	</div>
 
-
-
-	<div id="d4">
-		<span>Tool Menu</span>
-		<br>
-		<img src="Gather_tool.png" alt="" onclick="Pickup()" id="img3">
-		<img src="Gather_tool_active.png" alt="" onclick="Pickup()" class="hide" id="img4">
-	</div>
-
-	<div id="ToolShop" >
-		<button onclick="PlantTree()">Tree Planting</button>
-		<button onclick="PlantWaterGrass()">Plant Kelp</button>
-		<button onclick="PlantMushroom()">Plant Mushroom</button>
-	</div>
-
-	<div id="d5">
-		Spec Shop
-	</div>
-
-	<div id="premiumShop">
-		<button onclick="Increase_tree_prof()">Increase tree profit</button>
-		<button onclick="Increase_mushroom_prof()">Increase mushroom profit</button>
-		<button onclick="Increase_WaterGrass_prof()">Increase Kelp profit</button>
-	</div>
-
-	<div >
+	<!-- <div >
 		<button class="reset">
 			<img src="reset.png" alt="">
 		</button>
-	</div>
+	</div> -->
 <script src="main.js"></script>
 </body>
 </html>
