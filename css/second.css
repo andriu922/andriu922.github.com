@@ -9,6 +9,10 @@ div.show{display: block;}
 .bor-rad{
     border-radius: 10px;
 }
+button:hover, button:focus{
+    background-color: #ff9a9a;
+    text-decoration: underline;
+}
 
 #t1{
     position: relative;

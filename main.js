@@ -455,6 +455,7 @@ var level_01 = [
         gathered_trees = 0;
         gathered_mushroom = 0;
         gathered_WaterGrass = 0;
+        money = 0 ;
     
         tree_cnt = 10;
         mushroom_cnt = 0;
