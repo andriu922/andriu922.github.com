@@ -28,7 +28,7 @@ div.show{display: block;}
 
 .shops{
     position: absolute;
-    max-height: 170px;
+    max-height: 180px;
     width: 14%;
     border: 3px black solid;
     border-radius: 10px;
@@ -43,6 +43,11 @@ div.show{display: block;}
     margin: 10px;
 }
 
+.butt{
+    width: 100%;
+
+}
+
 .btn{
     position: relative;
     padding: 3px;
@@ -50,6 +55,7 @@ div.show{display: block;}
     left: 25%;
     text-align: center;
     background-color: #5a8858;
+    max-width: 75%;
 }
 
 .tool{
@@ -77,7 +83,7 @@ div.show{display: block;}
 
 .res-img{
     position: relative;
-    max-width: 70%;
-    max-height: 100%;
+    max-width: 60%;
+    max-height: 60%;
     left: 10%;
 }

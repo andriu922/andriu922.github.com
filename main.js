@@ -1,3 +1,23 @@
+var Assets = new ImgLoader([
+    'Tree1.png',
+    'Tree2.png',
+    'tree3.png'
+    ]);
+    var Assets_mushroom = new ImgLoader([
+    'Mushroom_1.png',
+    'Mushroom_2.png',
+    'Mushroom_3.png'
+    ])
+    var Assets_WaterPlant = new ImgLoader([
+    'WaterPlant1.png',
+    'WaterPlant2.png',
+    'WaterPlant3.png'
+        ])
+
+Assets.load();
+Assets_mushroom.load();
+Assets_WaterPlant.load();
+
 
 var level_01 = [
     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6],
@@ -27,21 +47,6 @@ var level_01 = [
     
     var imGrass = new Image();
     imGrass.src = 'Grass.png';
-    
-    var imRoad_straight = new Image();
-    imRoad_straight.src = 'Straight_2.png'
-    
-    var imRoad_turn_up = new Image();
-    imRoad_turn_up.src = 'Curve_1.png'
-    
-    var imRoad_up = new Image();
-    imRoad_up.src = 'Straight_1.png'
-    
-    var imCrossing_straight = new Image();
-    imCrossing_straight.src = 'Crossing_1.png'
-    
-    var imJunction = new Image();
-    imJunction.src = 'Junction.png';
     
     var imBox_1 = new Image();
     imBox_1.src = 'Field.png';
@@ -79,25 +84,6 @@ var level_01 = [
     var CellSIZE = 32;
     var x_obj = 0;
     var y_obj = 0;
-    var Assets = new ImgLoader([
-    'Tree1.png',
-    'Tree2.png',
-    'tree3.png'
-    ]);
-    var Assets_mushroom = new ImgLoader([
-    'Mushroom_1.png',
-    'Mushroom_2.png',
-    'Mushroom_3.png'
-    ])
-    var Assets_WaterPlant = new ImgLoader([
-    'WaterPlant1.png',
-    'WaterPlant2.png',
-    'WaterPlant3.png'
-        ])
-    
-    Assets_mushroom.load();
-    Assets.load();
-    Assets_WaterPlant.load();
     
         function ez(){
             goal = 1000 ; 
@@ -114,6 +100,7 @@ var level_01 = [
 
     var timer = null;
     function StartGame() {
+
         if (goal == 0){
         goal = Number(document.getElementById('t1').value)
         }
@@ -125,26 +112,6 @@ var level_01 = [
     // Ilustration
     function drawGrass(x,y) {
         ctx.drawImage(imGrass,0,0,CellSIZE,CellSIZE,x+dx,y+dy,CellSIZE,CellSIZE);
-    }
-    
-    function drawRoad_straight(x,y) {
-        ctx.drawImage(imRoad_straight,0,0,CellSIZE,CellSIZE,x+dx,y+dy,CellSIZE,CellSIZE);
-    }
-    
-    function drawRoad_turn_up(x,y) {
-        ctx.drawImage(imRoad_turn_up,0,0,CellSIZE,CellSIZE,x+dx,y+dy,CellSIZE,CellSIZE);
-    }
-    
-    function draw_road_up(x,y) {
-        ctx.drawImage(imRoad_up,0,0,CellSIZE,CellSIZE,x+dx,y+dy,CellSIZE,CellSIZE)
-    }
-    
-    function draw_crossing_straight(x,y) {
-        ctx.drawImage(imCrossing_straight,0,0,CellSIZE,CellSIZE,x+dx,y+dy,CellSIZE,CellSIZE)
-    }
-    
-    function draw_junction(x,y) {
-        ctx.drawImage(imJunction,0,0,CellSIZE,CellSIZE,x+dx,y+dy,CellSIZE,CellSIZE)
     }
     
     function draw_box(x,y) {
@@ -199,12 +166,7 @@ var level_01 = [
                 case  3: draw_water(cX,cY);				break;
                 case  2: draw_box_2(cX,cY);				break;
                 case  0: drawGrass( cX,cY );			break;
-                case  1: draw_box(cX,cY);				break;
-                case -1: drawRoad_straight( cX,cY ); 	break;
-                case -2: drawRoad_turn_up( cX,cY ); 	break;
-                case -3: draw_road_up( cX,cY ); 		break;
-                case -4: draw_crossing_straight(cX,cY); break;
-                case -5: draw_junction(cX,cY);			break;						
+                case  1: draw_box(cX,cY);				break;						
         }
         }
         }
